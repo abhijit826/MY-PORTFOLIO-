@@ -2,6 +2,8 @@
 
 ## ZOOM AT- 50% MAGNIFICATION TO SEE RESPONSIVELY
 
+### RESPONSIVE AT MOBILE-PHONES
+
 Welcome to my personal portfolio website! This portfolio showcases my skills, projects, and accomplishments as a Front-End Web Developer. The site highlights my technical expertise, professional experiences, and the projects I've worked on.
 
 ## Table of Contents
