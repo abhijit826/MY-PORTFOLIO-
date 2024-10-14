@@ -34,10 +34,10 @@ A task management app that allows users to add, edit, mark tasks as complete, an
 A web-based video conferencing application that supports real-time video and audio communication over the internet.
 
 ## Certificates
-- **UNSTOP **: TECH-NOVA HACKATHON-PARTICIPATION.
+- **UNSTOP**: TECH-NOVA HACKATHON-PARTICIPATION.
 - **IEEE Ideathon 2024**: Participation certificate
 - **IoT Workshop**: Internet of Things Workshop certification
-- **WEB-DEV **: Introduction to WEB-DEVELOPMENT
+- **WEB-DEV**: Introduction to WEB-DEVELOPMENT
 ## Contact
 Feel free to reach out to me for collaboration or if you have any questions!
 
