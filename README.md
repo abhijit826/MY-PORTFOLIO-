@@ -11,7 +11,7 @@ Welcome to my personal portfolio website! This portfolio showcases my skills, pr
 - [Certificates](#certificates)
 - [Contact](#contact)
 - [Installation](#installation)
-- [License](#license)
+
 
 ## About
 I'm a passionate front-end developer from India with experience in creating responsive and user-friendly websites. I specialize in using HTML, CSS, and JavaScript to build functional and visually appealing applications. My aim is to create websites that not only look great but also provide a seamless user experience across devices.
