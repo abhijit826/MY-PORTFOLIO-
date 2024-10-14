@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WELCOME TO MY  PORTFOLIO</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a3f0a2c3b4.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header">
+
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">Dashboard</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#Certificates">Certificates</a></li>
+                    <li><a href="#Projects">My-Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>                   
+                    <!--<i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>-->
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+            <p>Front-End-Developer</p>
+            <h1><span id="element"></span>
+            </h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+       <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/jaya.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About me</h1>
+                    <p >I'm a passionate front-end web developer with a strong focus on crafting responsive, user-friendly websites and applications. With a deep understanding of HTML, CSS, and JavaScript, I enjoy bringing designs to life with clean, efficient code. I specialize in creating seamless user experiences, ensuring websites not only look great across all devices but also perform optimally</p>
+                </div>
+                    <div class="tab-titles">
+                    <p class="tab-links active-link"onclick="opentab('skills')">skills</p>
+                    <p class="tab-links"onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('Education')">Education</p>
+                </div>
+
+               <div class="tab-contents active-tab" id="skills">
+                <ul> 
+                    <li> <span> UI/UX </span> <br> Figma </li>
+                    <li> <span> Front-End-Development </span> <br>  Html,Css,Java Script</li>
+                    <li> <span> Back-End-Development </span> <br>  Experes.Js,Node.js,React-js </li>
+                
+            </ul>
+                </div>
+               
+                <div class="tab-contents" id="Experience">
+                    <ul> 
+                        <li> <span> 2023-2027  </span> <br> IEI MEMBERSHIP</li>
+                        <li> <span> 2024-2025  </span> <br> Member of DSA-SRM</li>
+                                         
+                </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul> 
+                            <li> <span> 2023-2027 </span> <br> SRM UNIVERSITY,CHENNAI</li>
+                            <li> <span>2020-2022 </span> <br>  Gyan Jyoti School,BIHAR</li>
+                            <li> <span> 2015-2020 </span> <br>  Gyan Niketan School,BIHAR </li>
+                        
+                    </ul>
+                        </div>
+                </div>
+             </div>
+    </div>
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['<i>Hi , I am Abhijit Ranjan </i> From INDIA.', '.'],
+          typeSpeed: 100,
+        });
+      </script>
+      <!--------------SERVICES-->
+      <div id="services">
+        <div class ="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="Services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2> Front-End</h2>
+                    <p> Hi! I’m Abhijit, a frontend developer with a passion for creating beautiful and functional web applications.  I leverage my artistic skills to craft engaging user experiences. I specialize in React and responsive design, and I love collaborating with teams to bring innovative ideas to life.</p>
+                    <a href="https://roadmap.sh/frontend">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-compass-drafting"></i>
+                    <h2> UI/UX</h2>
+                    <p>  I have a passion for crafting intuitive and engaging user experiences. I focus on understanding user needs and behaviors to create effective solutions. I specialize in user research, wireframing, and prototyping, and I love collaborating with cross-functional teams to bring ideas to life.</p>
+                    <a href="https://roadmap.sh/ux-design">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-file-code"></i>
+                    <h2> Back-End</h2>
+                    <p>  I have a passion for building scalable and efficient web applications. With a strong background in software engineering and database management I enjoy working with diverse technologies and collaborating with frontend developers to create seamless user experiences.</p>
+                    <a href="https://roadmap.sh/backend">Learn more</a>
+                </div>
+            </div>
+        </div>
+
+      </div>
+
+<!--------portfolio-->
+<div id="Certificates">
+    <div class ="container">
+        <h1 class="sub-title">Certificates</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <img src ="images/cs2.png">
+                <div class="layer">
+                  <h3></h3>
+           
+        
+                </div>
+                
+                
+                    <img src ="images\IEEE IDEATHON 2024.png">
+                    <div class="layer">
+                       <h3></h3>
+            
+   
+                    </div>
+                    
+                    <img src ="images\crac.png">
+                    <div class="layer">
+                      <h3></h3>
+            
+    
+                    </div>
+                
+                        <img src ="images\IOT WORKSHOP.png">
+                        <div class="layer">
+                           <h3></h3>
+        
+      
+                        </div>
+                        </div>
+                      
+                </div>
+                </div>
+              </div>
+            
+
+<!--------My projects-->
+<div id="Projects">
+    <div class="container">
+     <h1 class="sub-title">My-Projects</h1>
+     <div class="working-list">
+        <div class="working1">
+<img src="images/weather.jpeg">
+<div class="hello">
+    <h3>Weather-App</h3>
+       <p> It provides real-time weather updates based on the user's geolocation. </p>
+         <a href=https://github.com/abhijit826/WEATHER-APP> <i class="fa-solid fa-up-right-from-square"></i> </a>
+        </div>
+        </div>
+        <div class="working2">
+            <img src="images/to-do.png">
+            <div class="hello2">
+                <h3>To Do List</h3>
+                   <p>  It allows users to add, edit, mark tasks as complete, and delete tasks </p>
+                     <a href=https://github.com/abhijit826/TO-DO-LIST> <i class="fa-solid fa-up-right-from-square"></i> </a>
+                    </div>
+                    </div>
+                    <div class="working3">
+                        <img src="images/video-call.png">
+                        <div class="hello3">
+                            <h3>Video Conf</h3>
+                               <p>  It allows individuals or groups to conduct meetings and communicate in real time via video and audio over the internet </p>
+                                 <a href=https://github.com/abhijit826/video-con> <i class="fa-solid fa-up-right-from-square"></i> </a>
+                                </div>
+                                </div>
+     </div>
+    </div>
+    </div>
+
+    <!----contact section-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>abhijitgyan121@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+91-9199778555</p>
+                <div id="social-icons">
+                    <a href="https://www.instagram.com/"> <i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://telegram.org/"> <i class="fa-brands fa-telegram"></i></a>
+                    <a href="https://www.linkedin.com/in/abhijit-ranjan-3b5399288/"> <i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/abhijit826"> <i class="fa-brands fa-github"></i></a>
+                </div>
+                </div>
+                <div class="contact-right">
+                
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows ="6" placeholder="Type Message"></textarea>
+                    <button type="submit" class="but"><i class="fa-solid fa-paper-plane"></i> Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+            </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; Abhijit Ranjan,All rights reserved. Made with <i class="fa-solid fa-heart"></i>  Thank You For Seeing <i class="fa-solid fa-face-smile"></i> <i class="fa-regular fa-face-smile-wink"></i></p>
+            </div>
+    </div>
+
+
+      <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+     
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+
+            }
+        
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+   function openmenu(){
+    sidemeu.style.right="0";
+   }
+   function closemenu(){
+    sidemeu.style.right="-12px";
+   }
+   
+    </script>
+    
+      
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzFa23XnD-bCxkR1UX4lI8KwKNBl_bYzxnGsE5-BrUF4Jlpv_uG1ibbwPA5AE2WtV1c/exec'
+        const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message Sent Sucessfully!"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
