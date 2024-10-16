@@ -97,11 +97,6 @@ nav ul li a:hover::after {
     text-align: center;
 }
 
-.header-text h1 {
-    font-size: 60px;
-    margin-bottom: 20px;
-    color: white;
-}
 
 .header-text h1 span {
     color: green;
@@ -109,7 +104,9 @@ nav ul li a:hover::after {
 }
 
 .header-text > p {
-    font-size: 40px;
+ 
+        font-size: 22px;
+   
     color: white;
 }
 
@@ -322,12 +319,13 @@ form input, form textarea {
 }
 
 .copyright {
+    margin-bottom: -294px;
     background: #262626;
     text-align: center;
-    padding: 1rem 0;
-    margin-top: 2rem;
+    padding: 0rem 0;
+    margin-top: 1rem;
     font-weight: 300;
-    color: #09ec9c
+    color: #09ec9c;
 }
 .but {
     font-size: 32px;
@@ -349,38 +347,153 @@ form input, form textarea {
 }
 
 /* Responsive styles */
+/* Base styles */
 @media only screen and (max-width: 768px) {
-    html {
-        font-size: 14px;
+    body {
+        font-size: 14px; /* Smaller base font size */
     }
 
-    nav ul {
+    #header {
+        width: 100%; /* Full width */
+        height: 60vh; /* Adjust height */
+    }
+
+    .header-text {
+        left: 46%;
+        transform: translate(-50%, -50%);
+        margin-top: 196px;
+    }
+
+    .header-text h1 {
+        font-size: 2.3rem;/* Smaller heading size */
+    }
+
+    .header-text > p {
+        font-size: 22px; /* Smaller paragraph size */
+    }
+   
+
+    nav {
+        padding: 0.5rem;
+      }
+    
+      nav ul {
+        display: none;
         flex-direction: column;
-        background: #262626;
         position: fixed;
         top: 0;
         right: -200px;
         width: 200px;
         height: 100vh;
+        background-color: rgba(0, 0, 0, 0.9);
         padding-top: 50px;
         transition: right 0.3s;
+      }
+    
+      nav ul.show {
+        top: -526px;
+        display: flex;
+        right: -96px;
+    }
+    
+      nav ul li {
+        margin: 1rem 0;
+      }
+    
+      nav .fa-solid {
+        display: block;
+        position: fixed;
+        top: 1rem;
+        right: 1rem;
+        cursor: pointer;
+      }
+    .about-col-1, .about-col-2 {
+        flex-basis: 100%; /* Full width */
+    }
+    #about {
+        padding: 4rem 0;
+        margin-top: 132px;
+    }
+    .tab-links {
+        font-size: 1rem; /* Smaller tab font size */
+        margin-right: 1rem; /* Adjust spacing */
     }
 
-    nav ul li {
-        margin: 25px;
+    .tab-contents {
+        margin-inline-end: 0; /* Reset margin */
     }
 
-    .about-col-1, .about-col-2,
-    .contact-left, .contact-right {
-        flex-basis: 100%;
+    /* Services section */
+    .Services-list {
+      grid-template-columns: 1fr;
     }
-
-    .about-col-1 {
-        margin-bottom: 2rem;
+  
+    /* Certificates section */
+    .col-md-4 img {
+      padding-left: 1rem;
+      padding-right: 1rem;
+      width: 100%;
     }
-
-    .Services-list,
+  
+    /* Projects section */
     .working-list {
-        grid-template-columns: 1fr;
+      grid-template-columns: 1fr;
+      gap: 2rem;
     }
-}
+  
+    /* Contact section */
+    #contact {
+      padding: 4rem 0;
+      font-size: 1.2rem;
+      margin-top: -67px;
+    }
+    
+  
+    .contact-left, .contact-right {
+      flex-basis: 100%;
+    }
+  
+    form input, form textarea {
+      font-size: 1rem;
+    }
+  
+    .but {
+      font-size: 1.2rem;
+    }
+  
+    #social-icons {
+      font-size: 2rem;
+    }
+    .copyright {
+        margin-bottom: 47px;
+        background: #262626;
+        text-align: center;
+        padding: 6rem 0px;
+        margin-top: 0rem;
+        font-weight: 300;
+        color: #09ec9c;
+    }
+  }
+  
+  /* Additional adjustments for very small screens */
+  @media (max-width: 480px) {
+    .header-text h1 {
+      font-size: 1.5rem;
+    }
+  
+    .header-text h1 span {
+      font-size: 1.3rem;
+    }
+  
+    .header-text > p {
+      font-size: 1.2rem;
+    }
+  
+    .subtitle {
+      font-size: 1.5rem;
+    }
+  
+    #contact {
+      font-size: 1rem;
+    }
+  }
