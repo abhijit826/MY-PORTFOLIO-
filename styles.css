@@ -394,7 +394,7 @@ form input, form textarea {
       }
     
       nav ul.show {
-        top: -500px;
+        top: -443px;
         display: flex;
         right: -96px;
     }
