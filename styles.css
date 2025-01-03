@@ -12,9 +12,13 @@ html {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: black;
+/*     background-color: black; */
     color: rgb(255, 255, 255);
     line-height: 1.6;
+    background-image: url("https://vip-go.shutterstock.com/blog/wp-content/uploads/sites/5/2020/05/shutterstock_407554567.jpg?w=750");
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed;
 }
 
 /* Header styles */
